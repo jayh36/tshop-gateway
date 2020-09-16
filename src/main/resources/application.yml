@@ -56,9 +56,9 @@ spring:
           predicates:
             - Path=/products/**,/db_product/**
         - id: customercenter
-          uri: http://reservationpage:8080
+          uri: http://customercenter:8080
           predicates:
-            - Path=/reservationpages/**,/db_customercenter/**
+            - Path=/reservationPages/**,/db_customercenter/**
       globalcors:
         corsConfigurations:
           '[/**]':
